@@ -2,7 +2,7 @@ accounts:
   message: "Welcome to the Accounts Service API"
   contactDetails:
     name: "Tony Stark_PROD"
-    email: "testprod@gmail.com"
+    email: "{cipher}23279a19ebb3625fa2a54f4c0a31afea287fc9e09625d267a818f1207d0d36bbe38f62fd43fe4418fc1129d505db73f2"
     onCallSupport:
         - "Monday - Friday: 24/7"
 springdoc:
