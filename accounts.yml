@@ -1,0 +1,20 @@
+accounts:
+  message: "Welcome to the Accounts Service API"
+  contactDetails:
+    name: "Stark Tony"
+    email: "tony@gmail.com"
+  onCallSupport:
+    - "Monday: 9am-5pm"
+    - "Tuesday: 9am-5pm"
+    - "Wednesday: 9am-5pm"
+    - "Thursday: 9am-5pm"
+    - "Friday: 9am-5pm"
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    path: /v3/api-docs
+    # Set the path for the Swagger UI. This allows developers to access the API documentation and test the endpoints through a web interface.
+build:
+  version: "1.0"

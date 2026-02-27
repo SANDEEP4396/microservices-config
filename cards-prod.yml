@@ -1,0 +1,16 @@
+cards:
+  message: "Welcome to the Cards Service API"
+  contactDetails:
+    name: "Thor PROD"
+    email: "thorprod@gmail.com"
+    onCallSupport:
+        - "Monday- Friday: 24/7"
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    path: /v3/api-docs
+    # Set the path for the Swagger UI. This allows developers to access the API documentation and test the endpoints through a web interface.
+build:
+  version: "1.0"
