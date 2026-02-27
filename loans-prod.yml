@@ -1,7 +1,7 @@
 build:
   version: "1.0"
 loans:
-  message: "Welcome to the Loans Service PROD API."
+  message: "Welcome to the Loans Service production API."
   contactDetails:
     name: "John PROD."
     email: "test_prod@gmail.com"
