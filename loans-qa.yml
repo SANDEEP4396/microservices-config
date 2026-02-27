@@ -5,9 +5,9 @@ loans:
   contactDetails:
     name: "John Doe QA"
     email: "testQA@gmail.com"
-    onCallSupport:
-      - "Monday: 9am-5pm"
-      - "Tuesday: 9am-5pm"
-      - "Wednesday: 9am-5pm"
-      - "Thursday: 9am-5pm"
-      - "Friday: 9am-5pm"
+  onCallSupport:
+    - "Monday: 9am-5pm"
+    - "Tuesday: 9am-5pm"
+    - "Wednesday: 9am-5pm"
+    - "Thursday: 9am-5pm"
+    - "Friday: 9am-5pm"
