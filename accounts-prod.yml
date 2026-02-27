@@ -1,7 +1,7 @@
 accounts:
-  message: "Welcome to the Accounts Service production API."
+  message: "Welcome to the Accounts Service production webhook API."
   contactDetails:
-    name: "Tony Stark_P.ROD"
+    name: "Tony Stark Prod User."
     email: "{cipher}9ef64d8a6c0ef3319c347a34d0008e8dedba72c6a0c4193cbf2177f50f78c90d4321b53a8072ba1b0c76ec6755de7d32"
     onCallSupport:
         - "Monday - Friday: 24/7"
