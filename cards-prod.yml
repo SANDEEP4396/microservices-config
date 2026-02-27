@@ -1,7 +1,7 @@
 cards:
-  message: "Welcome to the Cards Service PROD API."
+  message: "Welcome to the Cards Service Production API."
   contactDetails:
-    name: "Thor. PROD"
+    name: "Thor PROD_Supp"
     email: "thorprod@gmail.com"
   onCallSupport:
       - "Monday- Friday: 24/7"
