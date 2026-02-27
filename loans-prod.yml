@@ -5,5 +5,5 @@ loans:
   contactDetails:
     name: "John PROD"
     email: "test_prod@gmail.com"
-    onCallSupport:
-      - "Monday- Friday: 24/7"
+  onCallSupport:
+    - "Monday- Friday: 24/7"
