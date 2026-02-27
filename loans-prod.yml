@@ -1,9 +1,9 @@
 build:
   version: "1.0"
 loans:
-  message: "Welcome to the Loans Service API"
+  message: "Welcome to the Loans Service PROD API."
   contactDetails:
-    name: "John PROD"
+    name: "John PROD."
     email: "test_prod@gmail.com"
   onCallSupport:
     - "Monday- Friday: 24/7"
