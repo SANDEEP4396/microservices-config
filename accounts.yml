@@ -1,8 +1,8 @@
 accounts:
   message: "Welcome to the Accounts Service DEV API."
   contactDetails:
-    name: "Stark Ton.y"
-    email: "tony@gmail.com"
+    name: "Stark Tony."
+    email: "tonystark@gmail.com"
   onCallSupport:
     - "Monday: 9 am-5 pm"
     - "Tuesday: 9 am-5 pm"
