@@ -1,0 +1,10 @@
+server:
+  port: 8070
+eureka:
+  instance:
+    hostname: localhost # This is the hostname that the Eureka server will use to register itself. In this case, it is set to "localhost", which means that the Eureka server will be accessible at http://localhost:8070/eureka/. If you are running the Eureka server on a different host or want to make it accessible over the network, you should change this value to the appropriate hostname or IP address.
+  client:
+    fetchRegistry: false # This configuration tells the Eureka server not to fetch the registry information from other Eureka servers. Since this is a standalone Eureka server, it does not need to fetch registry information from other servers, and setting this to false can help reduce unnecessary network traffic and improve performance.
+    registerWithEureka: false # This configuration tells the Eureka server not to register itself with another Eureka server. Since this is a standalone Eureka server, it does not need to register itself with another server, and setting this to false can help reduce unnecessary network traffic and improve performance.
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # This is the URL that other Eureka clients will use to register themselves with the Eureka server. The "defaultZone" property specifies the default service URL for the Eureka server. In this case, it is set to http://${eureka.instance.hostname}:${server.port}/eureka/, which means that other Eureka clients will register themselves with the Eureka server at this URL. The ${eureka.instance.hostname} and ${server.port} placeholders will be replaced with the actual hostname and port of the Eureka server at runtime.
